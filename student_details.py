@@ -17,7 +17,7 @@ def calculate_grade(avg):
 
 def main():
     # Accept student details
-    name = "sri gouri"
+    name = "Yachika"
     department = "BCA"
     semester = 3
 
