@@ -1,6 +1,4 @@
 # Student Grade Calculator
-
-
 def calculate_grade(avg):
     if 90 <= avg <= 100:
         return "S"
@@ -28,9 +26,6 @@ def main():
         marks.append(sample_mark[i])
         
         avg = sum(marks) / len(marks)
-
-    
-
     # Determine grade
     grade = calculate_grade(avg)
 
